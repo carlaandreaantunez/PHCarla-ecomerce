@@ -1,0 +1,13 @@
+[
+    {"id":1, "nombre":"Book Wedding", "descripcion":"200 photos", "imagen":"https://www.revistabodas.com.uy/wp-content/uploads/2020/09/casamiento-lola-et-gaspard-2020-086-1-400x400.jpeg", "precio":80000, "stock":100, "categoria":"events"},
+    {"id":2, "nombre":"Book Birthday", "descripcion":"100 photos", "imagen":"https://de5l82skl2oz5.cloudfront.net/wp-content/uploads/2016/11/IMG_0133-1-400x400.jpg", "precio":35000, "stock":50, "categoria":"events"},
+    {"id":3, "nombre":"Book Baby Showers", "descripcion":"100 photos", "imagen":"https://www.handfie.com/wp-content/uploads/2018/03/baby_shower_ideas_decoracion.jpg", "precio":25000, "stock":50, "categoria":"events"},
+    {"id":4, "nombre":"Book Graduations", "descripcion":"100 photos", "imagen":"https://llm.law.uconn.edu/wp-content/uploads/sites/3545/2019/05/rafshar-gridblock-400x400.jpg", "precio":25000, "stock":50, "categoria":"events"},
+    {"id":5, "nombre":"Book Building", "descripcion":"50 photos", "imagen":"https://static.nationalgeographic.es/files/styles/image_3200/public/architecture-el-alto-bolivia-01.jpg?w=400&h=400&q=75", "precio":15000, "stock":60, "categoria":"architecture"},
+    {"id":6, "nombre":"Book Construction sites & Projects", "descripcion":"50 photos", "imagen":"https://www.ulmaconstruction.com.ar/es-ar/servicios/venta-de-encofrados-y-andamios/product-links/andamios/@@images/a447c6c2-2579-4768-9631-9e16075e2049.jpeg", "precio":15000, "stock":60, "categoria":"architecture"},
+    {"id":7, "nombre":"Book Make up", "descripcion":"50 photos", "imagen":"https://format-com-cld-res.cloudinary.com/image/private/s--N5dSb_O5--/c_crop,h_4452,w_4452,x_0,y_742/c_fill,g_center,w_400/fl_keep_iptc.progressive,q_95/Bold_Summer_14-06-22_198_crop_RGB_mx7gzq.jpg", "precio":15000, "stock":60, "categoria":"products"},
+    {"id":8, "nombre":"Book Food", "descripcion":"50 photos", "imagen":"https://cocinachilena.cl/wp-content/uploads/2018/07/chapsui-pollo-chicken-10-400x400.jpg", "precio":15000, "stock":60, "categoria":"products"},
+    {"id":9, "nombre":"Book Jewelry & Accessories", "descripcion":"50 photos", "imagen":"https://static.wixstatic.com/media/17f2e1_65973d28115d44fb96ad67deb44240c7~mv2.jpg/v1/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/_MG_0269.jpg", "precio":15000, "stock":60, "categoria":"products"},
+    {"id":10, "nombre":"Book Portrait of People", "descripcion":"80 photos", "imagen":"https://uploads4.wikiart.org/00282/images//unnamed.jpg!Portrait.jpg", "precio":25000, "stock":60, "categoria":"portrait"},
+    {"id":11,  "nombre":"Book Portrait of Animals", "descripcion":"50 photos", "imagen":"https://www.lokoloko.es/22334-home_default/modelo-perro-weimaraner.jpg", "precio":15000, "stock":60, "categoria":"portrait"}
+]

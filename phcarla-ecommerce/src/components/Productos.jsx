@@ -1,0 +1,16 @@
+
+/*[
+    {"id":1, "nombre":"Book Wedding", "descripcion":"200 photos ", "imagen":https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", "precio":80000, "stock":100, "categoria":"events"},
+    {"id":2, "nombre":"Book Birthday", "descripcion":"100 photos ", "imagen":https://images.unsplash.com/photo-1550256576-4f8aec0294ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", "precio":35000, "stock":50, "categoria":"events"},
+    {"id":3, "nombre":"Book Baby Showers", "descripcion":"100 photos ", "imagen":https://images.unsplash.com/photo-1626240909332-4dfc890dd541?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=657&q=80", "precio":25000, "stock":50, "categoria":"events"},
+    {"id":4, "nombre":"Book Graduations", "descripcion":"100 photos ", "imagen":"https://images.unsplash.com/photo-1619279302118-43033660826a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", "precio":25000, "stock":50, "categoria":"events"},
+    {"id":5, "nombre":"Book Building", "descripcion":"50 photos ", "imagen":"https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80", "precio":15000, "stock":60, "categoria":"architecture"},
+    {"id":6, "nombre":"Book Construction sites & Projects", "descripcion":"50 photos ", "imagen":"https://images.unsplash.com/photo-1605651161614-3aed001ef197?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80", "precio":15000, "stock":60, "categoria":"architecture"},
+    {"id":7, "nombre":"Book Make up", "descripcion":"50 photos ", "imagen":"https://images.unsplash.com/flagged/photo-1557391370-cbde7a6bb0b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80", "precio":15000, "stock":60, "categoria":"products"},
+    {"id":8, "nombre":"Book Food", "descripcion":"50 photos ", "imagen":"https://images.unsplash.com/photo-1612240498936-65f5101365d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60", "precio":15000, "stock":60, "categoria":"products"},
+    {"id":9, "nombre":"Book Jewelry & Accessories", "descripcion":"50 photos ", "imagen":"https://images.unsplash.com/photo-1600721391776-b5cd0e0048f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", "precio":15000, "stock":60, "categoria":"products"},
+    {"id":10, "nombre":"Book Portrait of People", "descripcion":"80 photos ", "imagen":"https://images.unsplash.com/photo-1514846117827-513efb7aa48a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fFBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60", "precio":25000, "stock":60, "categoria":"portrait"},
+    {"id":11,  "nombre":"Book Portrait of Animals", "descripcion":"50 photos ", "imagen":"https://images.unsplash.com/photo-1612940960267-4549a58fb257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydHJhaXQlMjBhbmltYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60", "precio":15000, "stock":60, "categoria":"portrait"}
+]*/
+
+

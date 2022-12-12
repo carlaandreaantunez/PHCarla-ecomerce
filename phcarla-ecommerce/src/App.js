@@ -1,17 +1,25 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import ItemListContainer from "./components/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer";
 import NavBar from "./components/NavBar";
-import CardApp from "./components/CardApp";
+import Error404 from "./components/Error404";
 
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <ItemListContainer greeting={"Hi, I'm Carla. I invite you to take a look at the website"} />
-      <CardApp />
-      <Footer />
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path={"/"} element={<ItemListContainer />} />
+          <Route path={"/category/:id"} element={<ItemListContainer />} />
+          <Route path={"/item/:id"} element={<ItemDetailContainer />} />
+          <Route path={"*"} element={<Error404 />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
