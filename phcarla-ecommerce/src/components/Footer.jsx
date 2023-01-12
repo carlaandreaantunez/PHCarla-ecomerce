@@ -7,7 +7,7 @@ const Footer = () => {
                 <hr />
                 <div className="row">
                     <div className="col-md-6">
-                        <a className="text-footer" href="/"><img src={"images/logo_camera.png"} alt={"Logo PH Carla"} width={35} />PH Carla</a>
+                        <a className="text-footer" style={{color: 'black'}} href="/"><img src={"images/logo_camera.png"} alt={"Logo PH Carla"} width={35} />© Copyright PHCarla - 2023</a>
                     </div>
                     <div className="col-md-6 text-end">
                         <p>

@@ -34,16 +34,21 @@ const ItemCount = ({ stock, onAdd }) => {
             <div className="row mb-3">
                 <div className="col-md-12">
                     <div className="btn-group" role="group" aria-label="Basic outlined example">
-                        <button type="button" className="btn btn-outline-primary" onClick={decreaseStock}>-</button>
-                        <button type="button" className="btn btn-outline-primary">{counter}</button>
-                        <button type="button" className="btn btn-outline-primary" onClick={increaseStock}>+</button>
+                        <button type="button" className="btn btn-outline-danger" onClick={decreaseStock}>-</button>
+                        <button type="button" className="btn btn-outline-danger">{counter}</button>
+                        <button type="button" className="btn btn-outline-danger" onClick={increaseStock}>+</button>
                     </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-md-12">
-                    {sold ? <Link to={"/cart"} className="btn btn-outline-primary">Finish my order</Link> : <button className="btn btn-outline-primary" onClick={() => { addToCart(counter) }}>Add to Cart</button>}
+                    {sold ? <Link to={"/cart"} className="btn btn-outline-danger">Finish my order</Link> : <button className="btn btn-outline-danger" onClick={() => { addToCart(counter) }}>Add to Cart</button>}
+                    
                 </div>
+                
+            </div>
+            <div className="col-md-12">
+            <Link to={"/"} className="btn"  style={{color: 'red'}} title="Home">Continue shopping</Link>
             </div>
         </div>
     )

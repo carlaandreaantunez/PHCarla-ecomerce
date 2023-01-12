@@ -5,7 +5,7 @@
 
 body {
 color: rgb(151, 17, 17);
-font-size: small;
+font-size: small bold;
 font-family: 'Shadows Into Light', cursive;
 }
 
@@ -33,7 +33,7 @@ font-family: 'Shadows Into Light', cursive;
 }
 
 .text-footer {
-  color: rgb(151, 17, 17);
+  color: rgb(15, 14, 14);
 text-decoration: none;
 }
 
