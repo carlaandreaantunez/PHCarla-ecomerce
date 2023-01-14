@@ -55,7 +55,7 @@ const Checkout = () => {
                             <input type="number" className="form-control" id="phone" placeholder="Enter your Telephone" onInput={(e) => {setPhone(e.target.value)}} />
                             {phone?.length > 0 ? "" : (<p className="emptyInputText">Complete the area</p>)}
                         </div>
-                        <button  style={{color: 'rgb(151, 17, 17)'}}  disabled={!name?.length > 0 || !phone?.length > 0 || !email?.length > 0} type="submit" value="submit" onClick={createOrder} className={!name?.length > 0 || !phone?.length > 0 || !email?.length > 0 ? "createOrderButton disabled" : "createOrderButton"} >Generate order</button>
+                        <button   style={{color: 'rgb(151, 17, 17)'}} disabled={!name?.length > 0 || !phone?.length > 0 || !email?.length > 0} type="submit" value="submit" onClick={createOrder} className={!name?.length > 0 || !phone?.length > 0 || !email?.length > 0 ? "createOrderButton disabled" : "createOrderButton"} >Generate order</button>
                     </form>
                 </div>
                 <div className="col">
@@ -79,8 +79,12 @@ const Checkout = () => {
                                 </tr>
                             ))}
                             <tr>
-                                <td colSpan={3} className="text-end"><b>Total Payable</b></td>
+                                <td colSpan={3} className="text-end"><b>Total</b></td>
                                 <td className="text-center"><b>${sumTotal()}</b></td>
+                            </tr>
+                            <tr>
+                                <td colSpan={3} className="text-end"><b>Total Payable with VAT </b></td>
+                                <td className="text-center"><b>${sumTotal()*1.21}</b></td>
                             </tr>
                         </tbody>
                     </table>
