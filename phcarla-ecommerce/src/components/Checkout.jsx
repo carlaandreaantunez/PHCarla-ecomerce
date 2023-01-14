@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { CartContext } from "./context/CartContext";
-import { addDoc, collection, getFirestore } from "firebase/firestore";
+import { addDoc, collection, getFirestore, doc, updateDoc } from "firebase/firestore";
 import { Navigate, Link } from "react-router-dom";
 
 const Checkout = () => {
@@ -25,6 +25,8 @@ const Checkout = () => {
         const ordersCollection = collection(db, "orders");
         addDoc(ordersCollection, order).then((snapShot) => {
             setOrderId(snapShot.id);
+            const orderDoc = doc(db, "orders", snapShot.id);
+            updateDoc(orderDoc, {total: order.total * 1.21}); 
             clear();
         });
     }
